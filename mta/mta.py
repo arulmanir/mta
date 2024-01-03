@@ -819,7 +819,7 @@ class MTA:
 
         print(res)
 
-    def rois(self, attrib: Dict[float], spend: Dict[float], cv: float) -> Dict[str,float]:
+    def rois(self, attrib: Dict[str,float], spend: Dict[str,float], cv: float) -> Dict[str,float]:
 
         """
         calculate ROIs as suggested in paper
