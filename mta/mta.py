@@ -837,7 +837,7 @@ class MTA:
 
         return roi
 
-    def pi(self, path, exposure_times, conv_flag, beta_by_channel, omega_by_channel) -> Dict[float]:
+    def pi(self, path, exposure_times, conv_flag, beta_by_channel, omega_by_channel) -> Dict[str,float]:
 
         """
 
